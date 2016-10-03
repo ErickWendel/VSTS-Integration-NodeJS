@@ -9,7 +9,7 @@ let client = vso.createClient(
     //user
     'vso test',
     //pwd
-    'nwmcgwwegqjko334g2bhlkrv4cxmpswiwqq6sji5baexhoorwr4a');
+    'YOUR PASSWORD');
 
 const wiql = 'Select [System.Id], [System.Title], [System.State] From WorkItems \
                 order by [Microsoft.VSTS.Common.Priority] asc, [System.CreatedDate] desc';
